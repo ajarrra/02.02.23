@@ -108,7 +108,22 @@ console.log(cm);
 
 
 
+//ЦИКЛЫ
 
+let i = 1; //создали единицу
+console.log(i);
+
+i = 2;// вручную сделали два
+console.log(i);
+
+i = i + 1; // 2 + 1 сам равняется равно 3
+console.log (i);
+ 
+i += 1;// сокращ версия
+console.log(i);
+
+i++; //всегда увеличивает на 1
+console.log(i);
 
 
 
