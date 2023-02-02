@@ -138,4 +138,48 @@ while (number <= 100){ // меньше 10 и плюс 1
     
 }
 
+let num = 10; //считает от 10 до 1
+while (num >= 1){
+    console.log(num);
+    num --;
+}
+
+
+for (let a = 1; a <= 10; a++){//другой метод цикла
+    console.log(a);
+}
+
+
+let v = 1; //сверху и это одно и тоже
+while (v <= 10){
+    console.log(v);
+    v++;
+} 
+
+//название переменных должны быть разными
+
+for (let m = 10; m >= 1; m--){
+    console.log(m);
+}
+
+
+
+
+let car1Fuel = 10;
+let car2Fuel = 15;
+let fuel = 50;
+
+let distance = "";
+for (let i = 0; i <= fuel; i += car1Fuel ){
+  distance += "-";
+}
+console.log(distance);
+
+distance = "";
+for (let i = 0; i <= fuel; i += car2Fuel){
+    distance += "-";
+}
+console.log (distance);
+
+
 
