@@ -189,6 +189,6 @@ function fibonacchi(n){
     if (n == 1) return 1;
     return fibonacchi(n-2) + fibonacchi(n-1);
   }
-  console.log(fibonacchi(3));
+   console.log(fibonacchi(3));
 
 
