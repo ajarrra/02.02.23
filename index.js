@@ -54,6 +54,9 @@ function myTikTok() {
 }
 myTikTok();
 
+function myMom(){
+    console.log("Ainura");
+}
 
 function area(width, height){
     let result = width * height;// вот сюда возвращает и наводи суету
